@@ -4,7 +4,6 @@ import { Link, useLocation }  from "react-router-dom";
 
 import './Sidebar.css'
 
-import {images} from '../../assets/index';
 import IconFormat from "../../assets/IconFormat";
 
 import * as Icons from "react-icons/gi";
@@ -28,7 +27,7 @@ export default function Sidebar(props) {
     <>
       <nav className="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden border-r-1 border-border-color bg-white flex flex-wrap items-center justify-between relative md:w-56 xl:w-64 z-10 ">
         <div className=" px-2 xl:px-4 md:px-0 md:flex-col md:items-stretch md:min-h-full md:flex-nowrap flex items-center justify-between w-full mx-auto  ">
-          {/* Toggler */}
+          
           <button
             className="h-12 w-12 cursor-pointer text-black opacity-50 md:hidden mt-2 mr-2 px-3 py-1 text-base leading-none bg-transparent rounded border border-solid border-transparent"
             type="button"
@@ -36,17 +35,17 @@ export default function Sidebar(props) {
           >
             <Icons.GiHamburgerMenu />
           </button>
-          {/* Brand */}
+          
           <SideCard/>
           
-          {/* Collapse */}
+          
           <div
             className={
               " md:flex md:flex-col md:items-stretch md:opacity-100 md:relative  md:mt-4 md:shadow-none absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded " +
               collapseShow
             }
           >
-            {/* Collapse header */}
+            
             <div className="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200">
               <div className="flex flex-wrap">
                 <div className="w-6/12">
@@ -68,11 +67,6 @@ export default function Sidebar(props) {
               </div>
             </div>
             
-            {/* Divider */}
-            {/* <hr className="my-4 md:min-w-full" /> */}
-            {/* Heading */}
-            
-            {/* Navigation */}
 
             <ul className="px-4 py-2 md:flex-col md:min-w-full flex flex-col list-none">
               
