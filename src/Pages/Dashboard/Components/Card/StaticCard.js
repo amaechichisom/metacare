@@ -14,7 +14,7 @@ function StaticCard(props) {
                 </div>
 
 
-                <div className='flex items-center justify-center gap-4 card_responsive lg:mt-0'>
+                <div className='flex items-center justify-center gap-2 card_responsive lg:mt-0'>
                     <div className='flex items-center justify-center border-r-1 border-border-color pr-2'>
                         <span className={`${props.priorityColor} p-2 rounded`}></span>
                         <p className='ml-3 text-xs md:text-sm font-bold'>High Priority</p>
