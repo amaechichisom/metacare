@@ -9,7 +9,7 @@ function DashboardNavbar() {
     <div className='border-y-1 border-border-color'>
     
             <ul className='hoc_padding list-none flex'>
-                <li className='mr-2 md:mr-4 lg:mr-8'>
+                <li className='mr-3 md:mr-4 lg:mr-8'>
 
                     <Link
                         className={
@@ -31,7 +31,7 @@ function DashboardNavbar() {
                     
                 </li>
 
-                <li className='mr-2 md:mr-4 lg:mr-8'>
+                <li className='mr-3 md:mr-4 lg:mr-8'>
 
                     <Link
                         className={
@@ -54,7 +54,7 @@ function DashboardNavbar() {
                 </li>
 
 
-                <li className='mr-2 md:mr-4 lg:mr-8'>
+                <li className='mr-3 md:mr-4 lg:mr-8'>
 
                     <Link
                         className={
@@ -77,7 +77,7 @@ function DashboardNavbar() {
                 </li>
 
 
-                <li className='mr-2 md:mr-4 lg:mr-8'>
+                <li className='mr-3 md:mr-4 lg:mr-8'>
 
                     <Link
                         className={
