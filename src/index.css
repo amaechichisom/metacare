@@ -6,6 +6,7 @@
 
 :root {
   --primary: #6837EF;
+  --search-background: #FAFAFC;
 }
 
 body {
@@ -38,12 +39,12 @@ code {
 }
 
 ::selection {
-  background-color: #6837EF;
+  background-color: var(--primary);
   color: white;
 }
 
 .search_background{
-  background-color: #FAFAFC;
+  background-color: var(--search-background);
 }
 
 
