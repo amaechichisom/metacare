@@ -48,25 +48,7 @@ code {
 }
 
 
-.hoc_padding{
-  padding-right:2rem;
-  padding-left:2rem
-}
 
-
-@media only screen and (max-width:640px) {
-  .hoc_padding {
-      padding-right:0.5rem;
-      padding-left:0.5rem
-  }
-}
-
-@media only screen and (max-width:1024px) {
-  .hoc_padding {
-      padding-right:1rem;
-      padding-left:1rem
-  }
-}
 
 
 @media only screen and (max-width:768px) {
