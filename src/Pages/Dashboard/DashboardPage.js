@@ -17,10 +17,10 @@ function DashboardPage() {
     <div>
       <DashboardMenu/>
 
-      <StaticCard title="Average response Time" strokeColor={colors['primary-orange']} priorityColor={`bg-primary-orange`}/>
-      <StaticCard title="Replies per resolution" strokeColor={colors['primary-blue']} priorityColor={`bg-primary-blue`}/>
-      <StaticCard title="Average response Time" strokeColor={colors['primary-pink']} priorityColor={`bg-primary-pink`}/>
-      <StaticCard title="First contact resolution rate" strokeColor={colors['primary-teal']} priorityColor={`bg-primary-teal`}/>
+      <StaticCard title="Average response Time" cardTopTitle="Response Time" cardBottomTitle="Response Time" strokeColor={colors['primary-orange']} priorityColor={`bg-primary-orange`}/>
+      <StaticCard title="Replies per resolution" cardTopTitle="Average Replies" cardBottomTitle="Response Time"  strokeColor={colors['primary-blue']} priorityColor={`bg-primary-blue`}/>
+      <StaticCard title="Average response Time" cardTopTitle="Average Resolution Rate" cardBottomTitle="Response Time"  strokeColor={colors['primary-pink']} priorityColor={`bg-primary-pink`}/>
+      <StaticCard title="First contact resolution rate" cardTopTitle="Average Contact Rate" cardBottomTitle="Response Time"  strokeColor={colors['primary-teal']} priorityColor={`bg-primary-teal`}/>
     </div>
   )
 }

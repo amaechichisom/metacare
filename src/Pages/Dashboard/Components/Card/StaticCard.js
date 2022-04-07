@@ -14,7 +14,7 @@ function StaticCard(props) {
                 </div>
 
 
-                <div className='flex items-center justify-center gap-4 mt-4 md:mt-0'>
+                <div className='flex items-center justify-center gap-4 card_responsive lg:mt-0'>
                     <div className='flex items-center justify-center border-r-1 border-border-color pr-2'>
                         <span className={`${props.priorityColor} p-2 rounded`}></span>
                         <p className='ml-3 text-xs md:text-sm font-bold'>High Priority</p>
@@ -33,14 +33,14 @@ function StaticCard(props) {
 
         </div> 
 
-        <div className='grid grid-rows-2 gap-4 place-content-center place-items-center py-8'>
-            <div className='flex flex-col justify-center items-start p-6 border-border-color border-1 rounded-md bg-border-background'>
-                <p className='text-sm text-body-black mb-2'>Average Response Time</p>
+        <div className='grid md:grid-rows-2 gap-4 place-content-center place-items-center py-8'>
+            <div className='flex flex-col justify-center items-start p-4 xl:p-6 border-border-color border-1 rounded-md bg-border-background'>
+                <p className='text-sm text-body-black mb-2'>{props.cardTopTitle}</p>
                 <h3 className='font-bold text-heading-black text-lg'>30 Mins</h3>
             </div>
 
-            <div className='flex flex-col justify-center items-start p-6 border-border-color border-1 rounded-md bg-border-background '>
-                <p className='text-sm text-body-black mb-2'>Average Response Time</p>
+            <div className='flex flex-col justify-center items-start p-4 xl:p-6 border-border-color border-1 rounded-md bg-border-background '>
+                <p className='text-sm text-body-black mb-2'>{props.cardBottomTitle}</p>
                 <h3 className='font-bold text-heading-black text-lg'>1 Hour 30 Mins</h3>
             </div>
 

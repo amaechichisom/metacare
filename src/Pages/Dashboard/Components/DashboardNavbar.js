@@ -8,7 +8,7 @@ function DashboardNavbar() {
   return (
     <div className='border-y-1 border-border-color'>
     
-            <ul className='hoc_padding list-none flex'>
+            <ul className='px-2 md:px-4 list-none flex'>
                 <li className='mr-2 md:mr-4 lg:mr-8'>
 
                     <Link

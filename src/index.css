@@ -61,9 +61,16 @@ code {
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1024px) {
   .hoc_padding {
       padding-right:1rem;
       padding-left:1rem
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+  .card_responsive {
+      margin-top: 1rem;
   }
 }
