@@ -57,7 +57,7 @@ code {
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:980px) {
   .margin-top-small-screen {
       margin-top: 1.5rem;
   }

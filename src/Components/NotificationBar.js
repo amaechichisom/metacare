@@ -6,7 +6,7 @@ function NotificationBar() {
 
 
     return (
-        <div className='w-4/5 lg:w-2/5 xl:w-1/5 ml-auto'>
+        <div className='w-4/5 lg:w-2/5 xl:w-3/12 ml-auto'>
 
             <div className='grid grid-cols-2 border-border-color border rounded-md p-1 '>
                 <div className='flex items-center justify-center border-r-1 border-border-color cursor-pointer'>
