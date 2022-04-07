@@ -62,3 +62,9 @@ code {
       margin-top: 1.5rem;
   }
 }
+
+@media only screen and (max-width:768px) {
+  .padding_card {
+      padding: 2rem;
+  }
+}

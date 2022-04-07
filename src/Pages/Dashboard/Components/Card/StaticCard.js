@@ -33,13 +33,13 @@ function StaticCard(props) {
 
         </div> 
 
-        <div className='grid md:grid-rows-2 gap-4 place-content-center place-items-center py-8'>
-            <div className='flex flex-col justify-center items-start p-4 xl:p-6 border-border-color border-1 rounded-md bg-border-background'>
+        <div className='grid md:grid-rows-2 grid-cols-3 gap-4 place-content-center place-items-center py-8'>
+            <div className='flex flex-col justify-center items-start w-3/5 lg:w-4/5 h-4/5 mx-auto pl-4 padding_card col-span-3 border-border-color border-1 rounded-md bg-border-background'>
                 <p className='text-sm text-body-black mb-2'>{props.cardTopTitle}</p>
                 <h3 className='font-bold text-heading-black text-lg'>30 Mins</h3>
             </div>
 
-            <div className='flex flex-col justify-center items-start p-4 xl:p-6 border-border-color border-1 rounded-md bg-border-background '>
+            <div className='flex flex-col justify-center items-start w-3/5 lg:w-4/5 h-4/5 mx-auto pl-4 padding_card col-span-3 border-border-color border-1 rounded-md bg-border-background '>
                 <p className='text-sm text-body-black mb-2'>{props.cardBottomTitle}</p>
                 <h3 className='font-bold text-heading-black text-lg'>1 Hour 30 Mins</h3>
             </div>
