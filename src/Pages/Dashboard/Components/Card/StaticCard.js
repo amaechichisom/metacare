@@ -6,7 +6,7 @@ function StaticCard(props) {
   return (
     <div className='grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 border-border-color border-1 rounded-md mt-8 w-full'>
         
-        <div className=' border-r-1 border-border-color lg:col-span-3 xl:col-span-4 p-4 '>
+        <div className=' border-r-1 border-border-color lg:col-span-3 xl:col-span-4 card_padding p-4 '>
             <div className='flex flex-col lg:flex-row justify-between items-center'>
                 <div className='flex justify-center  items-center'>
                     <h3 className='font-bold text-base xl:text-lg mr-3 break-all whitespace-normal'>{props.title}</h3>
